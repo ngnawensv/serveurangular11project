@@ -35,4 +35,9 @@ public class UserAppServiceImpl implements UserAppService {
     public List<UserApp> findAllUserApp() {
         return userAppRepository.findAll();
     }
+
+    @Override
+    public UserApp findUserAppByEmail(String email) {
+        return userAppRepository.findUserAppByEmail(email);
+    }
 }

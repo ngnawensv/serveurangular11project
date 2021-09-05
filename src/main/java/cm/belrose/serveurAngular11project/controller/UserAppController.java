@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping(value = "/users")
 @Slf4j
-@CrossOrigin(origins = "*", maxAge = 3600)
 public class UserAppController {
 
     private UserAppService userAppService;
@@ -28,7 +28,7 @@ public class UserAppController {
         return userAppService.createUserApp(userApp);
     }
 
-    @GetMapping(value = "/{id}")
+    @GetMapping(value = "/id/{id}")
     public UserApp findById(@PathVariable("id") Long id){
         log.info("Inside the findById method");
         return userAppService.findUserAppById(id);
@@ -39,6 +39,13 @@ public class UserAppController {
         log.info("Inside the findAll method");
         return userAppService.findAllUserApp();
     }
+
+    @GetMapping(value = "/email/{email}")
+    public UserApp findByEmail(@PathVariable("email") String email){
+        log.info("Inside the findByEmail method");
+        return userAppService.findUserAppByEmail(email);
+    }
+
 
 
 }
