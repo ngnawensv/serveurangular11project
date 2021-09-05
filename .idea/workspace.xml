@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad4ee80-a620-4527-b769-5dd433b5ee74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/controller/UserAppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/controller/UserAppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/repository/UserAppRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/repository/UserAppRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/service/UserAppService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/service/UserAppService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/service/impl/UserAppServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/service/impl/UserAppServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootJarMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/bootRunMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cm/belrose/serveurAngular11project/Serveurangular11projectApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cm/belrose/serveurAngular11project/controller/UserAppController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cm/belrose/serveurAngular11project/entities/UserApp$UserAppBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cm/belrose/serveurAngular11project/entities/UserApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cm/belrose/serveurAngular11project/repository/UserAppRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cm/belrose/serveurAngular11project/service/UserAppService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cm/belrose/serveurAngular11project/service/impl/UserAppServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/serveurangular11project-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/serveurangular11project-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -63,6 +72,12 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="application" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="serveurangular11project" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -85,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/repository/UserAppRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -308,7 +323,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.serveurangular11project [bootRun]">
+  <component name="RunManager" selected="Gradle.serveurangular11project [clean]">
     <configuration name="Serveurangular11projectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cm.belrose.serveurAngular11project.Serveurangular11projectApplication" />
       <module name="serveurangular11project.main" />
@@ -360,6 +375,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="serveurangular11project [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Serveurangular11projectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="serveurangular11project.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cm.belrose.serveurAngular11project.Serveurangular11projectApplication" />
@@ -369,6 +403,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.serveurangular11project [clean]" />
         <item itemvalue="Gradle.serveurangular11project [bootRun]" />
         <item itemvalue="Gradle.serveurangular11project [build]" />
         <item itemvalue="Application.Serveurangular11projectApplication" />
@@ -386,12 +421,12 @@
       <option name="presentableId" value="Default" />
       <updated>1630775939690</updated>
       <workItem from="1630775943955" duration="6483000" />
-      <workItem from="1630785888735" duration="5695000" />
+      <workItem from="1630785888735" duration="6221000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12178000" />
+    <option name="totallyTimeSpent" value="12704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -407,7 +442,7 @@
       <window_info x="0" y="23" width="1536" height="801" id="Version Control" order="8" side_tool="true" type="WINDOWED" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.70234114" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3385269" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3385269" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39966556" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -429,7 +464,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Gradle" order="9" visible="true" weight="0.18053691" />
+      <window_info active="true" anchor="right" id="Gradle" order="9" visible="true" weight="0.18053691" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +511,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cm/belrose/serveurAngular11project/repository/UserAppRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
